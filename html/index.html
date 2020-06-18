@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Bose</title>
+    
+    <!-- //css -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+   <!-- css// -->
+    <script src="../js/boss.js"></script>
+
+
+</head>
+<body>
+    
+    <header>
+        <div class="nav">
+
+            <a id="logo" href="index.html"></a>
+            <ul class="top">
+                <li>
+                    <input type="text" placeholder="Search...">
+                </li>
+                <li>
+                    <a href="" id="LOGIN">
+                      <i class="far fa-user-circle"></i>
+                       <span> 
+                            My Bose<br>
+                            Log in/Create an account
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" id="STORES">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Stores</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" id="CART">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Cart</span>
+                        
+                    </a>
+                </li>
+            </ul>
+            <ul class="bot">
+                <li class="items" id="HEADPHONES"><a href="./headpones.html">HEADPHONES</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="">SHOP ALL</a></li>
+                            <li><a href="">NEW</a></li>
+                            <li><a href="">SPECIAL OFFERS</a></li>
+                            <li><a href="">OUTLET</a></li>
+                            <li><a href="">GIFTS</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">NOISE CANELLING</a></li>
+                            <li><a href="">WIRELESS</a></li>
+                            <li><a href="">SPORTS</a></li>
+                            <li><a href="">HEARING</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">AVIATION HEADSETS</a></li>
+                            <li><a href="">SOUNDCOMM HEADSETS</a></li>
+                            <li><a href="">ACCESSORIES</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="items" id="SPEAKERS"><a href="speakers.html">SPEAKERS</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="">SHOP ALL</a></li>
+                            <li><a href="">NEW</a></li>
+                            <li><a href="">SPECIAL OFFERS</a></li>
+                            <li><a href="">OUTLET</a></li>
+                            <li><a href="">GIFTS</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">PORTABLE</a></li>
+                            <li><a href="">SMART HOME</a></li>
+                            <li><a href="">SMART THEATER</a></li>
+                            <li><a href="">SOUNDBARS</a></li>
+                            <li><a href="">WAVE</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">STEREO</a></li>
+                            <li><a href="">SOUNDWEAR</a></li>
+                            <li><a href="">COMPUTER</a></li>
+                            <li><a href="">PORTABLE PA</a></li>
+                            <li><a href="">ACCESSORIES</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="items" id="AUDIO"><a href="">AUDIO SUNGLASSES</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="">CLASSIC ANGULAR LOOK:ALTO</a></li>
+                            <li><a href="">DISTINCT ROUNDED LOOK: RONDO</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="items" id="STORIES"><a href="">STORIES</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="">VIEW ALL STORIES</a></li>
+                            <li><a href="">WORK FROM HOME LIKE A BOSS</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="items" id="SUPPORT"><a href="support.html">SUPPORT</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="">SHOP ALL</a></li>
+                            <li><a href="">NEW</a></li>
+                            <li><a href="">SPECIAL OFFERS</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">PORTABLE</a></li>
+                            <li><a href="">SMART HOME</a></li>
+                            <li><a href="">SMART THEATER</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">STEREO</a></li>
+                            <li><a href="">SOUNDWEAR</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-m">
+            <div class="left">
+                <div class="menu" onclick="menu_click_fun(this)">
+                    <p>MENU</p>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+            <a class="logo" href=""></a>
+            <div class="right">
+                <ul>
+                    <li><a href="">Search</a></li>
+                    <li><a href="">Cart</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </header>
+    
+    <!--new layout by menu click -->
+    <div class="sub-menu">
+        <span class="top1">
+            <ul>
+                <li><a href="">Stores</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Cart</a></li>
+            </ul>
+        </span>
+        <span class="top2">
+            <input type="text" placeholder="Search...">
+        </span>
+        <ul class="top3">
+            <li><a href="">HEADPHONES</a></li>
+            <li><a href="">SPEAKERS</a></li>
+            <li><a href="">AUDIO SUNGLASSES</a></li>
+            <li><a href="">STORIES</a></li>
+            <li><a href="">SUPPORT</a></li>
+        </ul>
+    </div>
+    
+
+    <div class="pc">
+        <div class="headerDiv"></div>
+        <div class="main">
+            <div class="main-visual">
+                <div class="inner">
+                    <h2>When your home becomes your office</h2>
+                    <h3>BOSE NOISE CANCELLING HEADPHONES 700</h3>
+                    <a class="shop gray" href=""><span >SHOP</span></a>
+                </div>
+            </div>
+            <div class="notice1">
+                <h2>Supporting front-line responders</h2>
+                <p>See our special offers on Bose products for eligible participants. We're also assisting in the communities where we live and work. <a href="">Learn more</a></p>
+            </div>
+            <div class="products">
+                <h2>FEATURED PRODUCTS</h2>
+                <ul>
+                    <li>
+                        <div class="inner">
+                           <div class="hover-event-area">
+
+                            </div>
+                            <div class="hover-btn-area">
+                                <a href="" class="hover-btn bgWhite num1"><span>DETAILS</span></a>
+                                <a href="" class="hover-btn bgGray num2"><span>BUY</span></a>
+                            </div>
+                            <div class="content-area">
+                                <a href=""><img src="../img/product1.png" alt=""></a>
+                                <h3 class="name">QuietComfort 35 wireless headphones II</h3>
+                                <span class="price">$349.95<br><br/></span>
+                                    
+                                <div class="icon-area">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i> 
+                                        &nbsp;(786)&nbsp;
+                                        <i class="fas fa-square-full gray"></i>
+                                        <i class="fas fa-square-full black"></i> 
+                                        <br>
+                                    </span>
+                                   <span class="icon bluetooth"></span>
+                                    <span class="icon battery"></span>
+                                    <span class="icon voice"></span>
+                                    <span class="icon noise"></span>
+                                    <span class="icon wave"></span>Augmented Reality
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <div class="hover-event-area">
+
+                            </div>
+                            <div class="hover-btn-area">
+                                <a href="" class="hover-btn bgWhite num1"><span>DETAILS</span></a>
+                                <a href="" class="hover-btn bgGray num2"><span>BUY</span></a>
+                            </div>
+                            <div class="content-area">
+                                <a href=""><img src="../img/product2.png" alt=""></a>
+                                <h3 class="name">SoundSport Free wireless headphones</h3>
+                                <span class="price">$149.95 <span class="prev-price">$199.95</span><br/><br/></span>
+                                Truly wireless, water resistant, 5 hours of battery life<br>
+                                <div class="icon-area">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    &nbsp;(2128)&nbsp;
+                                    <i class="fas fa-square-full black"></i>
+                                    <i class="fas fa-square-full thick-green"></i>
+                                    <i class="fas fa-square-full pink"></i>  
+                                    <br>
+                                    <span class="icon bluetooth"></span>
+                                    <span class="icon water"></span>
+                                    <span class="icon battery"></span>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <div class="hover-event-area">
+
+                            </div>
+                            <div class="hover-btn-area">
+                                <a href="" class="hover-btn bgWhite num1"><span>DETAILS</span></a>
+                                <a href="" class="hover-btn bgGray num2"><span>BUY</span></a>
+                            </div>
+                            <div class="content-area">
+                                <a href=""><img src="../img/product3.png" alt=""></a>
+                                <h3 class="name">SoundSport wireless headphones</h3>
+                                <span class="price">$99.95 <span class="prev-price">$149.95</span><br><br/></span>
+                                Water resistant, 6 hours battery life<br>
+                                <div class="icon-area">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    &nbsp;(1888)&nbsp;
+                                    <i class="fas fa-square-full yellow"></i>
+                                    <i class="fas fa-square-full blue"></i>
+                                    <i class="fas fa-square-full black"></i>
+                                    <br>
+                                    <span class="icon bluetooth"></span>
+                                    <span class="icon water"></span>
+                                    <span class="icon battery"></span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <div class="hover-event-area">
+
+                            </div>
+                            <div class="hover-btn-area">
+                                <a href="" class="hover-btn bgWhite num1"><span>DETAILS</span></a>
+                                <a href="" class="hover-btn bgGray num2"><span>BUY</span></a>
+                            </div>
+                            <div class="content-area">
+                                <a href=""><img src="../img/product4.png" alt=""></a>
+                                <h3 class="name">Bose Sounbar 500</h3>
+                                <span class="price">$499.95 <span class="prev-price">$549.95</span><br><br/></span>
+                                Ultra-high performance with ultra-thin design. Built-in voice control.<br>
+                                <div class="icon-area">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    &nbsp;(104)&nbsp;
+                                    <i class="fas fa-square-full black"></i>
+                                    <br>
+                                    <span class="icon wifi"></span>
+                                    <span class="icon bluetooth"></span>
+                                    <span class="icon noise"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="sub-visuals">
+                <div class="sub-visual1">
+                    <div class="inner">
+                        <h2 class="big">SUNGLASSES.<br>WITH A SOUNDTRACK.</h2>
+                        <h3 class="midium">BOSE FRAMES ALTO</h3>
+                        <a class="shop gray" href=""><span >SHOP</span></a>
+                    </div>
+                </div>
+                <div class="sub-visual2">
+                    <div class="inner">
+                        <h2 class="big">For your most intense workouts</h2>
+                        <h3 class="midium">SOUNDSPORT FREE WIRELESS HEADPHONES</h3>
+                        <a class="shop white" href=""><span >SHOP</span></a>
+                    </div>
+                </div>
+                <div class="sub-visual3">
+                    <div class="inner">
+                        <h2 class="big">Stay home - and entertained</h2>
+                        <h3 class="midium">BOSE PORTABLE HOME SPEAKER</h3>
+                        <a class="shop white" href=""><span >SHOP</span></a>
+                    </div>
+                </div>
+                <div class="sub-visual4">
+                    <div class="inner">
+                        <h2 class="midium">BOSE AUTOMOTIVE</h2>
+                        <h3 class="big">True believers in the power of sound</h3>
+                        <a class="learn-more white" href=""><span>LEARN MORE</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="sub-visual5">
+                    <div class="top">
+                        <p>A message to Bose Professional customers: An important loudspeaker recall notice.</p>
+                        <a class="learn-more gray" href=""><span>LEARN MORE</span></a>
+                    </div>
+                    <div class="inner">
+                        <h3>EMAIL SIGN UP</h3>
+                        <h2>Being first has its perks.</h2>
+                        <p>Sign up to get more information about Bose, exclusive first looks at<br> promotions, new products and more.</p>
+                        <form action="">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit"><i class="fas fa-chevron-right"></i></button>
+                        </form>
+                    </div>
+                    <div class="bottom">
+                        <a href=""> <i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer">
+                <ul class="inner">
+                    <li class="dark-white">
+                        <ul>
+                            <li><a href="">BOSE PROFESSIONAL</a></li>
+                            <li><a href="">AUTOMOTIVE SYSTEMS</a></li>
+                            <li><a href="">MILITARY APPLICATIONS</a></li>
+                            <li><a href="">BOSE HEARPHONES</a></li>
+                            <li><a href="">SOUNDCOMM B40 HEADSET</a></li>
+                            <li><a href="">BOSE WORK</a></li>
+                        </ul>
+                    </li>
+                    <li class="gray">
+                        <ul>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Find a Store</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Work at Bose</a></li>
+                            <li><a href="">Bose Partner Program</a></li>
+                            <li><a href="">Corporate Sales, Gifts & Rewards</a></li>
+                            <li><a href="">Bose Worldwide</a></li>
+                            <li><a href="">Supporting Front-line responders</a></li>
+                        </ul>
+                    </li>
+                    <li class="gray">
+                        <ul>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">California Privacy Notice of Collection</a></li>
+                            <li><a href="">Terms of use</a></li>
+                            <li><a href="">Terms of sale</a></li>
+                            <li><a href="">Beware of counterfeits</a></li>
+                            <li><a href="">Cookies Notice</a></li>
+                            <li><a href="">Trademarks</a></li>
+                            <li><a href="">Accessibility</a></li>
+                            <li><a href="">Sustainability at Bose</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                
+                <div class="bottom">
+                    <div class="language">
+                        <span class="dark-white">
+                            <i class="fas fa-flag-usa"></i> &nbsp;&nbsp;United States
+                            
+                        </span>
+                        <span class="gray">
+                            &nbsp;Change
+                            <span class="bracket">
+                               <i class="fas fa-chevron-right"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="logo">
+                        <div class="img">
+                            
+                        </div>
+                        <div class="text gray">
+                            Bose Corporation 2020
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="ta">
+        <div class="main">
+            
+                <div class="AD700">
+                    <h2>When your home becomes your office</h2>
+                    <h3>BOSE NOISE CANCELLING HEADPHONES 700</h3>
+                    <span><a href="">SHOP</a></span>
+                </div>
+            
+            <div class="main-visual">
+<!--                <img src="../img/web.1920.1920.jpeg" alt="">-->
+            </div>
+        </div>
+    </div>
+
+
+<script>
+    function menu_click_fun(x){
+        // bar event
+        x.classList.toggle("change");
+
+        
+        // sub menu event
+        var sub_menu = document.querySelector(".sub-menu");
+        if(sub_menu.style.visibility == 'visible'){
+//            alert("change none");
+            
+            sub_menu.style.opacity = 0;
+            sub_menu.style.visibility ='hidden';
+        }else{
+            
+//            alert("change block");
+            
+            sub_menu.style.opacity = 1;
+            sub_menu.style.visibility = 'visible';
+        }
+    }
+</script>
+</body>
+</html>

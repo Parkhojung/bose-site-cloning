@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
+    color: inherit;
+/*    background-color: inherit;*/
+    font-size: inherit;
+}
+
+/**{border: 1px solid;}*/
+li {
+    color: inherit;
+    list-style: none;
+}
+/*ul{ background: blue;}*/
+
+a {
+    text-decoration: none;
+}
+
+.prev-price{
+    text-decoration: line-through;
+    color: #585858;
+}
+
+.black {color: black;}
+.thick-green{color: #113c11;}
+.pink {color: pink;}
+.yellow{color: yellow}
+.blue{color: blue;}
+.fa-square-full{padding: 0 0.8px;}
+.white{color: white}
+.gray{color: gray;}
+.dark-white{color: #d7d7e3}

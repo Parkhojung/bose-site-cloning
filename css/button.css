@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+/* SHOP BUTTON */
+.pc .shop{
+    width: 80px; height: 30px; border-radius: 35px;
+    display: inline-block; font-weight: 500; text-align: center;
+    margin-top: 30px;}
+.pc .shop span{line-height: 30px; font-size: 14px;}
+
+/*SHOP  GRAY BG */
+.pc .shop.gray{background: #2c2828;border: 1px solid #2c2828;}
+.pc .shop.gray span{color: white;}
+.pc .shop.gray:hover{background: white;}
+.pc .shop.gray:hover span{color:#2c2828;}
+
+/*SHOP WHITE BG */
+.pc .shop.white{background: white;}
+.pc .shop.white span{color: #2c2828;}
+.pc .shop.white:hover{background: #2c2828;}
+.pc .shop.white:hover span{color:white;}
+
+
+/* LEARN-MORE BUTTON*/
+.pc .learn-more{
+    width: 140px; height: 30px; border-radius: 35px;
+    display: inline-block;  text-align: center; margin-top: 30px;
+}
+.pc .learn-more span{
+     line-height: 30px; font-size: 12px;
+}
+
+/* LEARN-MORE WHITE BG */
+.pc .learn-more.white{background: white;}
+.pc .learn-more.white span{color: #2c2828}
+.pc .learn-more.white:hover{background: #2c2828; }
+.pc .learn-more.white:hover span{color: white;}
+
+/* LEARN-MORE GRAY BG */
+.pc .sub-visuals .learn-more.gray{background: #2c2828;   border: 1px solid #2c2828;}
+.pc .sub-visuals .learn-more.gray{color: white}
+.pc .sub-visuals .learn-more.gray:hover{background: white; }
+.pc .sub-visuals .learn-more.gray:hover{color: #2c2828;}
+
+
+/*HOVER BUTTON -> <a> <span>button name</span> </a>*/
+.hover-btn{
+    /*width: 140px; height: 30px;*/ border-radius: 35px; line-height: 30px; padding: 5px 30px;
+    text-align: center; margin-top: 30px;
+    display: inline-block;  
+}
+/*WHITE BG*/
+.hover-btn.bgWhite{background: white; color: #2c2828;}
+.hover-btn.bgWhite:hover{background: #2c2828; color: white;}
+
+/* LEARN-MORE GRAY BG */
+.hover-btn.bgGray{background: #2c2828; border: 1px solid #2c2828; color: white;}
+.hover-btn.bgGray:hover{background: white; color: #2c2828;}
+
+
+/*size change*/
+
+hover-btn.sizeBig span{
+    font-size :15px;
+}
+.hover-btn.sizeMid span{
+     font-size: 14px;
+}
+
+
+

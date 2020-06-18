@@ -1,0 +1,50 @@
+
+
+@media only screen and (min-width:1280px) {
+
+    /*main visual*/
+    .pc .main-visual{
+        height: 350px; background: url(../img/support/main-pic.jpeg); position: relative;  background-size: cover ; 
+        
+    }
+    .pc .main-visual .inner{
+        width: 700px;
+        padding: 80px 0; box-sizing: border-box;
+        margin: 0 auto;
+        
+        text-align: center;
+    }
+    
+    .pc .main-visual .inner h3,
+    .pc .main-visual .inner h2,
+    .pc .main-visual .inner p{
+        color: white;
+    }
+    
+    .pc .main-visual .inner h2{font-size: 50px; font-weight: 2000; letter-spacing: 3px; margin-bottom: 20PX;}
+    .pc .main-visual .inner h3{font-size: 20px; font-weight: 2000; margin-bottom: 15px;}
+    .pc .main-visual .inner p{ font-size: 18px; margin-bottom: 15px;}
+    .pc .main-visual .inner .find span{font-size: 18px; display: block; color: #c7a5a5}
+    .pc .main-visual .inner .find:hover span{text-decoration: underline; color: white;}
+    
+/* coding for sticky*/
+    .pc .main-visual .inner a{}
+    
+    .sub-visuals .inner{
+/*        text-align: center; position: absolute;*/
+    }
+    .sub-visuals .big {
+        font-size: 44px;  margin: 20px 0;
+    }
+    .sub-visuals .midium{
+        font-size: 25px; font-weight: 500;
+        margin: 20px 0;
+    }
+    
+    
+    .main-visual .hover-btn span{
+        font-weight: 2000;
+    }
+    
+}
+
