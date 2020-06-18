@@ -1,4 +1,4 @@
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:1px) {
 
     .nav-m, .sub-menu, .ta{
     display: none;
@@ -237,5 +237,9 @@
     }
     #SUPPORT div ul:nth-of-type(3){
         width: 120px;
+    }
+
+    .sub li a:hover {
+        color: white;;
     }
 }

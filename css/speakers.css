@@ -1,10 +1,10 @@
 
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:1px) {
 
     /*main visual*/
     .pc .main-visual{
-        height: 500px; background: url(../img/headphones/main-visual.jpeg); position: relative;  background-size: cover ; 
+        height: 500px; background: url(../img/speakers/main-visual.jpeg); position: relative;  background-size: cover ; 
         
     }
     .pc .main-visual .inner{
